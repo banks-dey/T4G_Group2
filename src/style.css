@@ -3,14 +3,14 @@
 /*container*/
 
 .cardcontainer{
+    flex-flow: wrap;
     display: flex;
-    grid-template-columns: 4;
-    gap: 10px;
+    grid-template-columns:4;
+    gap: 60px;
     padding: 20px;
     flex-direction: row;
     justify-content: flex-start;
-    width: 100%;
-    height: 160px;
+    /* width: 50%; */
     color: white;
     border-radius: 5px;
     text-align: center;
@@ -18,8 +18,12 @@
     margin-bottom: 5px;
     flex-wrap: wrap;
     text-align: justify;
-
 } 
+.All_item{
+    width: 100%;
+    height: 200%;
+}
+
 
 
 /*Header*/
@@ -31,6 +35,7 @@
     background-color: burlywood;
     padding: 10px;
     font-size: 40px;
+    word-spacing: 20px;
     
 }
 
@@ -65,14 +70,22 @@
 
 /*Color for each card*/
 
-.cardpurple{ background-color: purple;}
-.cardcyan{ background-color: cyan;}
-.cardgreen{ background-color: green;}
-.cardorange{ background-color: orange;}
-.cardmagenta{ background-color: magenta;}
-.cardlavender{ background-color: rgb(123, 123, 222);}
-.cardcrimson{ background-color: crimson;}
-.cardbeige{background-color: deeppink;}
+.cardpurple{ background-color: purple;
+width: 20%; height:300px; }
+.cardcyan{ background-color:cyan;
+width: 20%; height: 300px;}
+.cardgreen{ background-color: green;
+width: 20%;height: 300px;}
+.cardorange{ background-color: orange;
+width: 20%;height: 300px;}
+.cardmagenta{ background-color: magenta;
+width: 20%;height: 300px;}
+.cardlavender{ background-color: rgb(123, 123, 222);
+width: 20%;height: 300px;}
+.cardcrimson{ background-color: crimson;
+width: 20%;height: 300px;}
+.cardbeige{background-color: deeppink;
+width: 20%;height: 300px;}
 
 
 
