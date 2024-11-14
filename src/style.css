@@ -71,21 +71,71 @@
 /*Color for each card*/
 
 .cardpurple{ background-color: purple;
-width: 20%; height:300px; }
+width: 20%; height:300px;
+border-style: double;
+}
+.cardpurple:hover{
+    border: 5px purple(0, 0, 0);
+    border-style: dashed;
+}
 .cardcyan{ background-color:cyan;
-width: 20%; height: 300px;}
+width: 20%; height: 300px;
+border-style: double;
+}
+.cardcyan:hover{
+    border: 5px black(0, 0, 0);
+    border-style: dashed;  
+}
 .cardgreen{ background-color: green;
-width: 20%;height: 300px;}
+width: 20%;height: 300px;
+border-style: double;}
+.cardgreen:hover{ 
+    border: 5px green(0, 0, 0);
+    border-style: dashed;
+}
+
 .cardorange{ background-color: orange;
-width: 20%;height: 300px;}
+width: 20%;height: 300px;
+border-style: double;}
+
+.cardorange:hover{
+    border: 5px orange(0, 0, 0);
+    border-style: dashed;
+}
 .cardmagenta{ background-color: magenta;
-width: 20%;height: 300px;}
-.cardlavender{ background-color: rgb(123, 123, 222);
-width: 20%;height: 300px;}
+width: 20%;height: 300px;
+border-style: double;}
+
+.cardmagenta:hover{
+    border: 5px magenta(0, 0, 0);
+    border-style: dashed;
+}
+
+.cardlavender{ background-color: blue;
+width: 20%;height: 300px;
+border-style: double;} 
+
+.cardlavender:hover{
+    border: 5px blue(0, 0, 0);
+    border-style: dashed;
+}
+
 .cardcrimson{ background-color: crimson;
-width: 20%;height: 300px;}
+width: 20%;height: 300px;
+border-style: double;}
+
+.cardcrimson:hover{
+    border: 5px crimson(0, 0, 0);
+    border-style: dashed;
+}
 .cardbeige{background-color: deeppink;
-width: 20%;height: 300px;}
+width: 20%;height: 300px;
+border-style: double;}
+
+.cardbeige:hover{
+    border: 5px deeppink(0, 0, 0);
+    border-style: dashed;
+}
 
 
 
